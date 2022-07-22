@@ -1,0 +1,14 @@
+.header {
+    margin-top: 4%;
+    text-align: center;
+}
+
+.header h5 {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.header h1 {
+    margin: 3px 0;
+    font-weight: 700;
+}

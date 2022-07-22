@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    background-color: rgb(61, 13, 107);
+    background-color: var(--color-bg);
     color: #fff;
 }
 
@@ -24,3 +24,51 @@ html {
 ::-webkit-scrollbar {
     display: none;
 }
+
+:root {
+    --color-primary: #3c9fd8;
+    --color-primary-variant: rgba(77, 181, 255, 0.4);
+    --color-bg:  rgb(61, 13, 107);
+
+    --transition: all 400ms ease;
+}
+
+a {
+    color: var(--color-primary);
+    transition: var(--transition);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    padding: 0.75rem 1.2rem;
+    border-radius: 04.rem;
+    cursor: pointer;
+    border: 1px solid var(--color-primary);
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background: white;
+    color: var(--color-bg);
+    border-color: transparent;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-bg);
+}
+
+.cta {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
