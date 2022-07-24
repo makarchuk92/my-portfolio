@@ -1,4 +1,5 @@
 import React from 'react'
+import Particles from 'react-particles-js';
 import './App.css';
 import About from './components/about/About';
 import Contact from './components/contact/Contact';
@@ -14,14 +15,38 @@ function App() {
   return (
     <div className="container">
       <>
-        <Header />
-        <Navigation />
-        <About />
-        <Experience />
-        <Services />
-        <Portfolio />
-        <Contact /> 
-        <Footer />
+      <Particles
+        params={{
+          particles: {
+            color: {
+              value: "#3c9fd8"
+            },
+            line_linked: {
+              color: {
+                value: "#fff"
+              }
+            },
+            number: {
+              value: 40
+            },
+            size: {
+              value: 5
+            }
+          }
+        }}
+      />
+      
+        <div className='content'>
+          <Header />
+          <Navigation />
+          <About />
+          <Experience />
+          <Services />
+          <Portfolio />
+          <Contact />
+          <Footer />
+        </div>
+        
       </>
     </div>
   );

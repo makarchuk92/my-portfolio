@@ -10,6 +10,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--color-bg);
     color: #fff;
+    height: 2500px;
 }
 
 .container {
@@ -31,6 +32,21 @@ html {
     --color-bg:  rgb(61, 13, 107);
 
     --transition: all 400ms ease;
+}
+
+
+/*    */
+
+.tsparticles-canvas-el {
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
 }
 
 a {
