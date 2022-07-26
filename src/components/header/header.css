@@ -1,9 +1,14 @@
 .header {
-    margin-top: 4%;
     text-align: center;
+    overflow: hidden;
+    height: 100vh;
 }
 
-.header-typed {
+.header h5 {
+    margin-top: 4%;
+}
+
+.header_typed {
     font-size: 17px;
     font-weight: 500;
 }
@@ -11,4 +16,24 @@
 .header h1 {
     margin: 3px 0;
     font-weight: 700;
+}
+
+/* ======== CTA ========*/
+.cta {
+    margin-top: 2rem;
+    display: flex;
+    width: 100%;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+/* ======== Header_Socials ========*/
+.header_socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.7rem;
+    position: absolute;
+    left: 0;
+    top: 5rem;
 }

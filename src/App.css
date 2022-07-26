@@ -10,7 +10,6 @@ body {
     font-family: 'Open Sans', sans-serif;
     background-color: var(--color-bg);
     color: #fff;
-    height: 2500px;
 }
 
 .container {
@@ -29,7 +28,7 @@ html {
 :root {
     --color-primary: #3c9fd8;
     --color-primary-variant: rgba(77, 181, 255, 0.4);
-    --color-bg:  rgb(61, 13, 107);
+    --color-bg: rgb(61, 13, 107);
 
     --transition: all 400ms ease;
 }
@@ -40,8 +39,10 @@ html {
 .tsparticles-canvas-el {
     position: absolute;
     z-index: 1;
-    height: 100vh;
-    width: 100vw;
+    width: 90% !important;
+    height: 100%;
+    pointer-events: initial;
+    overflow: hidden;
 }
 
 .content {
@@ -79,12 +80,3 @@ a:hover {
     background: var(--color-primary);
     color: var(--color-bg);
 }
-
-.cta {
-    margin-top: 2rem;
-    display: flex;
-    width: 100%;
-    gap: 1.2rem;
-    justify-content: center;
-}
-
