@@ -13,12 +13,16 @@ body {
 }
 
 .container {
-    max-width: 85%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
 html {
     scroll-behavior: smooth;
+}
+
+section {
+    height: 100vh;
 }
 
 ::-webkit-scrollbar {
