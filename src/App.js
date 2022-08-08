@@ -13,42 +13,41 @@ import Services from './components/services/Services';
 
 function App() {
   return (
-    <div className="container">
-      <>
-      <Particles
-        params={{
-          particles: {
-            color: {
-              value: "#3c9fd8"
-            },
-            line_linked: {
-              color: {
-                value: "#fff"
+      <div className="container">
+        <>
+          <Particles
+            params={{
+              particles: {
+                color: {
+                  value: "#3c9fd8"
+                },
+                line_linked: {
+                  color: {
+                    value: "#fff"
+                  }
+                },
+                number: {
+                  value: 40
+                },
+                size: {
+                  value: 5
+                }
               }
-            },
-            number: {
-              value: 40
-            },
-            size: {
-              value: 5
-            }
-          }
-        }}
-      />
-      
-        <div className='content'>
-          <Header />
-          <Navigation />
-          <About />
-          <Experience />
-          <Services />
-          <Portfolio />
-          <Contact />
-          <Footer />
-        </div>
-        
-      </>
-    </div>
+            }}
+          />
+          <div className='content'>
+            <Header />
+            <Navigation />
+            <About />
+            <Experience />
+            <Services />
+            <Portfolio />
+            <Contact />
+            <Footer />
+          </div>
+        </>
+      </div>
+    
   );
 }
 

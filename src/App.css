@@ -12,6 +12,10 @@ body {
     color: #fff;
 }
 
+h2, h5 {
+    text-align: center;
+}
+
 .container {
     max-width: 90%;
     margin: 0 auto;
