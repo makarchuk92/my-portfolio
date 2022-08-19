@@ -1,0 +1,9 @@
+.container_experience {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+
+.experience_details {
+    margin-top: 2rem;
+}
