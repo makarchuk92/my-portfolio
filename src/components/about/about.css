@@ -5,12 +5,18 @@
     margin-top: 4rem;
 }
 
+.about_text h3 {
+    text-align: center;
+    margin-top: 0.5rem;
+    color: var(--color-primary);
+}
+
 .about_me {
     display: grid;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/0.98;
     width: 100%;
     border-radius: 2rem;
-    background: linear-gradient(45deg,
+    background: linear-gradient(35deg,
             transparent,
             var(--color-primary),
             transparent);
@@ -46,3 +52,4 @@
 .about_card h5 {
     font-size: 0.97rem;
 }
+

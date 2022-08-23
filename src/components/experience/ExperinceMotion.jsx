@@ -8,19 +8,19 @@ const ExperinceMotion = () => {
             <h3>Motion Designer</h3>
             <div className="experience_content">
                 <article className='experience_details'>
-                    <BsPatchCheckFill />
+                    <BsPatchCheckFill className='experience_icon'/>
                     <h4>After Effects</h4>
                 </article>
                 <article className='experience_details'>
-                    <BsPatchCheckFill />
+                    <BsPatchCheckFill className='experience_icon'/>
                     <h4>Cinema 4D</h4>
                 </article>
                 <article className='experience_details'>
-                    <BsPatchCheckFill />
+                    <BsPatchCheckFill className='experience_icon'/>
                     <h4>Photoshop</h4>
                 </article>
                 <article className='experience_details'>
-                    <BsPatchCheckFill />
+                    <BsPatchCheckFill className='experience_icon'/>
                     <h4>Figma</h4>
                 </article>
             </div>

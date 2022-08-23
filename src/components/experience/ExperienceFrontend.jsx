@@ -8,23 +8,23 @@ const ExperienceFrontend = () => {
       <h3>Frontend Developer</h3>
       <div className="experience_content">
         <article className='experience_details'>
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className='experience_icon'/>
           <h4>HTML / CSS</h4>
         </article>
         <article className='experience_details'>
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className='experience_icon'/>
           <h4>JavaScript</h4>
         </article>
         <article className='experience_details'>
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className='experience_icon'/>
           <h4>React / Redux</h4>
         </article>
         <article className='experience_details'>
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className='experience_icon'/>
           <h4>TypeScript</h4>
         </article>
         <article className='experience_details'>
-          <BsPatchCheckFill />
+          <BsPatchCheckFill className='experience_icon'/>
           <h4>Wordpress</h4>
         </article>
       </div>
