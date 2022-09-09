@@ -5,9 +5,8 @@
     margin-top: 4rem;
 }
 
-.about_text h3 {
+.about_text h2 {
     text-align: center;
-    margin-top: 0.5rem;
     color: var(--color-primary);
 }
 
@@ -47,9 +46,56 @@
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
 }
 
-.about_card h5 {
+.about_card::before {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(transparent, transparent, transparent,#00ccff);
+    animation: animate 4s linear infinite;
+}
+
+.about_card::after {
+    content: '';
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background-image: conic-gradient(transparent, transparent, transparent,#f3d840);
+    animation: animate 4s linear infinite;
+    animation-delay: -2s ;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.about_card span {
+    position: absolute;
+    inset: 3px;
+    border-radius: 0.8rem;
+    background: #0c1022;
+    z-index: 1;
+}
+
+.about_card h5 {    
     font-size: 0.97rem;
+    z-index: 2;
+}
+
+.about_card small {
+    z-index: 2;
 }
 

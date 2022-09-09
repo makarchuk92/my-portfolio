@@ -14,7 +14,6 @@ body {
 
 h2, h5 {
     text-align: center;
-    padding-top: 2rem;
 }
 
 .container {
@@ -26,7 +25,8 @@ html {
     scroll-behavior: smooth;
 }
 
-section {
+section, header {
+    padding-top: 2rem;
     height: 100vh;
 }
 
